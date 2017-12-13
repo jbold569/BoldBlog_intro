@@ -1,0 +1,15 @@
+#Test .gitignore file
+
+#This is a comment
+
+# include the includes directroy
+!/includes
+
+# exclude the excludes directory
+/excludes
+
+# ignore files ending in .bold
+*.bold
+
+# include files ending in .bolden
+!*.bolden
